@@ -1,33 +1,33 @@
 ~Table Hereos
 
-ID	| FullName	    | Gender	|
+ID	| FullName      | Gender	
 ------------------------------------------
-1	| Clrak Kent	| Male		|
-2	| Barry Allen	| Male		|
-3	| Diana Prince	| Female	|
-4	| Bruce Banner	| Male		|
-5	| Wanda Maximoff| Female	|
+1	| Clrak Kent	| Male		
+2	| Barry Allen	| Male		
+3	| Diana Prince	| Female	
+4	| Bruce Banner	| Male		
+5	| Wanda Maximoff| Female	
 
 ~Table Powers					
 
-ID	| Powers		        | 
+ID	| Powers		        
 ------------------------------------
-1	| Super Human strength	| 			
-2	| Flight		        | 
-3	| X-ray vision		    | 
-4	| Heat vision	    	|
-5	| Super speed	    	|
-6	| Phasing		        |
-7	| Time travel	    	|
-8	| Dimensional travel	|
-9	| Super human reflexes	|
-10	| Super human agility	|
-11	| Super human flight	|
-12	| Thunder clap		    |
-13	| Super healing factor	|
-14	| reality manipulation	|
-15	| Astral projection	    |
-16	| Psionic		|
+1	| Super Human strength				
+2	| Flight		        
+3	| X-ray vision		    
+4	| Heat vision	    	
+5	| Super speed	    
+6	| Phasing		        
+7	| Time travel	    	
+8	| Dimensional travel	
+9	| Super human reflexes	
+10	| Super human agility	
+11	| Super human flight	
+12	| Thunder clap		    
+13	| Super healing factor	
+14	| reality manipulation	
+15	| Astral projection	    
+16	| Psionic		
 
 ~Table HeroPowers
 
