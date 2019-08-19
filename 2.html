@@ -1,0 +1,17 @@
+<html>
+  <head> </head>
+  <body>
+    <script>
+      window.onload = function() {
+        const setTitle = text =>
+          text
+            .toLowerCase()
+            .split(" ")
+            .map(s => s.charAt(0).toUpperCase() + s.substring(1))
+            .join(" ");
+
+        console.log(setTitle("susilo giono"));
+      };
+    </script>
+  </body>
+</html>

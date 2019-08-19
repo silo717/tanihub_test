@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <title>N0.1</title>
+  </head>
+  <body>
+    <script type="text/javascript" src="array.js"></script>
+    <script>
+      window.onload = function() {
+        /*  Take only the `alterEgo` */
+        const alterEgo = arr.map(({ alterEgo }) => alterEgo);
+        console.log(alterEgo);
+
+        const powers = arr.map(({ powers }) => powers);
+
+        /*  Take only the `powers`*/
+        var onlyPowers = Object.keys(powers).reduce(function(arr2, key) {
+          return arr2.concat(powers[key]);
+        }, []);
+
+        let unique = [...new Set(onlyPowers)];
+        console.log(unique.sort());
+
+        /*  Group them by gender */
+        var groupGender = arr
+          .reduce(function(groupGender, currentValue) {
+            if (groupGender.indexOf(currentValue.gender) === -1) {
+              groupGender.push(currentValue.gender);
+            }
+            return groupGender;
+          }, [])
+          .map(function(gender) {
+            return {
+              gender: gender,
+              heroes: arr.filter(function(_el) {
+                return _el.gender === gender;
+              })
+            };
+          });
+
+        console.log(groupGender);
+      };
+    </script>
+  </body>
+</html>
